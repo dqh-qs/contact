@@ -1,0 +1,151 @@
+.introduce_img {
+    width: 100%;
+    min-height: 120px;
+    background-image: url(../img/Rublevoy_Steemit.png);
+    background-size: contain;
+    margin-bottom: 30px;
+}
+.introduce_img span{
+    color: white;
+}
+.introduce_img a{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+.introduce_img a:hover{
+    color:yellow;
+    
+}
+.content_text_intr h1{
+    padding: 25px 0;
+    margin: 0;
+    text-align: center;
+}
+
+.content_text_intr_btt {
+    display: flex;
+    text-align: center;
+    margin: auto;
+    justify-content: space-between;
+    width: 150px;
+}
+/* end Introduce_img*/
+.Introduce_img_topl{
+    width: 100%;
+}
+.Introduce_img_topl img{
+    width: 100%;
+}
+.Introduce_text_topr p{
+    font-size: 1.35rem;
+    line-height: 1.9rem;
+    padding: 0 5px;
+}
+.Introduce_text_topr h1{
+    line-height: 2.5rem;
+    padding: 0 5px;
+}
+.Introduce_img_buttom{
+    width: 100%;
+}
+.Introduce_img_buttom img{
+    width: 100%;
+}
+.Introduce_text_topleft h1{
+    line-height: 2.5rem;
+    padding: 0 5px;
+}
+.Introduce_text_topleft p{
+    font-size: 1.35rem;
+    line-height: 1.9rem;
+    padding:5px;
+}
+/* End infomation Fashion Style Q&H */
+.select_list{
+    margin-top: 20px;
+    
+}
+.select_list_store{
+    display: flex;
+    max-width: 360px;
+    margin: auto;
+    justify-content: space-between;
+}
+.select_list_store select{
+    display: block;
+    max-width: 320px;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #d6d6d623;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+@media (max-width:600px){
+    body{
+        overflow-x: hidden;
+    }
+    .select_list_store select{
+        max-width: 140px;
+    }
+    .select_list{
+        padding: 0 5px;
+    }
+}
+/* End Branch store */
+.list_address_clb{
+    margin-top: 30px;
+}
+.collibrary_list_clb{
+    min-height: 400px;
+    background-clip:content-box;
+    background-color: white;
+    margin-bottom: 24px;
+}
+.collibrary_list_clb img{
+    width: 100%;
+    border-radius: 5px;
+    object-fit: contain;
+    transition: 0.5s;
+}
+.collibrary_list_clb:hover img{
+    transform: rotate(-1deg) scale(1.01);
+    opacity: 0.5;
+}
+.content_list_clb h1{
+    font-size: 2.2rem;
+    padding-left: 20px;
+    color:#720000 ;
+    line-height: 2.5rem;
+}
+.content_list_clb p{
+    font-size: 1.4rem;
+    font-weight: 400;
+    padding-left: 20px;
+    margin-top: 15px;
+
+}
+.content_list_clb p:nth-of-type(2){
+    color: #AB1111;
+}
+.content_list_clb p i{
+    font-size: 1.5rem;
+    padding-right: 10px;
+    color:#AB1111 ;
+}
+.more_info{
+    display: block;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-right: 10px;
+    float: right;
+    text-align: center;
+    font-size: 1.3rem;
+    border-radius: 3px;
+}
+.more_info:hover{
+    color: #AB1111;
+}
+/* End list_address_clb */

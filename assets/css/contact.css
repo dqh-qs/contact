@@ -1,0 +1,132 @@
+.introduce_img {
+    width: 100%;
+    min-height: 120px;
+    background-image: url(../img/map.jpg);
+    background-size: contain;
+}
+.introduce_img span{
+    color: #090D16;
+}
+.introduce_img a{
+    text-decoration: none;
+    color: #090D16;
+    transition: 0.5s;
+}
+.introduce_img a:hover{
+    color:rgb(14, 152, 16);
+    
+}
+.content_text_intr h1{
+    padding: 25px 0;
+    margin: 0;
+    text-align: center;
+}
+
+.content_text_intr_btt {
+    display: flex;
+    text-align: center;
+    margin: auto;
+    justify-content: space-between;
+    width: 150px;
+}
+.map {
+    padding: 10px;
+  }
+.map_div{
+    border: 1px solid #ccc;
+}
+
+@media (min-width:1023px) {
+    .map {
+        padding: 10px;
+        animation: fadeIn1 linear 0.7s;
+      }
+      .contact__{
+        animation: fadeIn2 linear 0.7s;
+    }
+
+}
+@media (max-width:1023px) {
+    .div-img{
+        display: none;
+    }
+
+}
+/* .div-img{
+    margin-top: 35px;
+    width: 150px;
+    height: 130px;
+    background-image: url(../img/logo.png);
+    background-size: cover;
+    border-radius: 200px;
+
+} */
+.address{
+    font-size: 1.5rem;
+    padding: 10px;
+    
+}
+.address_h2{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.address-list{
+    margin-top: 10px;
+}
+.address-list-item{
+    list-style: none;
+     display: flex; 
+     padding: 5px 0px;
+}
+.contact{
+    font-size: 1.4rem;
+}
+.contact h2{
+   text-align: center;
+    font-size: 1.7rem;
+    padding: 0px 0px 20px 0px;
+}
+.level_1{
+    width: 100%;
+flex: 1;
+margin: 5px 5px 5px 5px;
+padding: 10px;
+}
+.level input{
+    height: 40px;
+}
+.contact-div_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    padding: 10px;
+}
+.contact-div_button button{
+        width: 200px;
+        height: 40px;
+          font-size: 1.7rem;
+        background-color: black;
+        color: white;
+}
+@keyframes fadeIn1 {
+    from {
+        opacity: 0;
+      transform: translateX(-70%);
+    }
+    to {
+      transform: translateX(0%);
+      opacity: 1;
+    }
+  }
+  @keyframes fadeIn2 {
+    from {
+        opacity: 0;
+      transform: translateX(70%);
+    }
+    to {
+      transform: translateX(0%);
+      opacity: 1;
+    }
+  }

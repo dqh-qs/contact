@@ -1,0 +1,18 @@
+:root {
+    --white-color:#fff;
+    --black-color:#000;
+    --yellow-color:#FCE701;
+    --text-color:#353535;
+    --background: linear-gradient(90deg, rgb(12, 170, 209) 0%, rgb(17, 159, 195) 100%);
+}
+* {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+}
